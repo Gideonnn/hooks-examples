@@ -10,5 +10,8 @@ export const Home = () => (
     <div>
       <Link to="/use-effect">useEffect</Link>
     </div>
+    <div>
+      <Link to="/use-ref">useRef</Link>
+    </div>
   </div>
 );
