@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Home, UseStateExample } from './pages';
+import { Home, UseEffectExample, UseStateExample } from './pages';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="use-state" element={<UseStateExample />} />
+        <Route path="use-effect" element={<UseEffectExample />} />
       </Routes>
     </BrowserRouter>
   );

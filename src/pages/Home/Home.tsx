@@ -4,6 +4,11 @@ export const Home = () => (
   <div className="pt-12 mx-auto prose text-center">
     <h1>React Hooks examples</h1>
     <p>Choose one of the examples below.</p>
-    <Link to="/use-state">useState</Link>
+    <div>
+      <Link to="/use-state">useState</Link>
+    </div>
+    <div>
+      <Link to="/use-effect">useEffect</Link>
+    </div>
   </div>
 );
