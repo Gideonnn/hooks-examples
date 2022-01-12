@@ -16,5 +16,8 @@ export const Home = () => (
     <div>
       <Link to="/use-memo">useMemo</Link>
     </div>
+    <div>
+      <Link to="/use-layout-effect">useLayoutEffect</Link>
+    </div>
   </div>
 );

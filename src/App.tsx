@@ -1,7 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Home, UseEffectExample, UseMemoExample, UseRefExample, UseStateExample } from './pages';
+import {
+  Home,
+  UseEffectExample,
+  UseLayoutEffectExample,
+  UseMemoExample,
+  UseRefExample,
+  UseStateExample,
+} from './pages';
 
 function App() {
   return (
@@ -12,6 +19,7 @@ function App() {
         <Route path="use-effect" element={<UseEffectExample />} />
         <Route path="use-ref" element={<UseRefExample />} />
         <Route path="use-memo" element={<UseMemoExample />} />
+        <Route path="use-layout-effect" element={<UseLayoutEffectExample />} />
       </Routes>
     </BrowserRouter>
   );
