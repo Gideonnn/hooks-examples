@@ -13,5 +13,8 @@ export const Home = () => (
     <div>
       <Link to="/use-ref">useRef</Link>
     </div>
+    <div>
+      <Link to="/use-memo">useMemo</Link>
+    </div>
   </div>
 );
