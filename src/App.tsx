@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import {
   Home,
+  UseCallbackExample,
   UseEffectExample,
   UseLayoutEffectExample,
   UseMemoExample,
@@ -20,6 +21,7 @@ function App() {
         <Route path="use-ref" element={<UseRefExample />} />
         <Route path="use-memo" element={<UseMemoExample />} />
         <Route path="use-layout-effect" element={<UseLayoutEffectExample />} />
+        <Route path="use-callback" element={<UseCallbackExample />} />
       </Routes>
     </BrowserRouter>
   );
