@@ -25,5 +25,8 @@ export const Home = () => (
     <div>
       <Link to="/use-reducer">useReducer</Link>
     </div>
+    <div>
+      <Link to="/use-context">useContext</Link>
+    </div>
   </div>
 );

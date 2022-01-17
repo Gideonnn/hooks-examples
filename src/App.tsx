@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import {
   Home,
   UseCallbackExample,
+  UseContextExample,
   UseEffectExample,
   UseLayoutEffectExample,
   UseMemoExample,
@@ -24,6 +25,7 @@ function App() {
         <Route path="use-layout-effect" element={<UseLayoutEffectExample />} />
         <Route path="use-callback" element={<UseCallbackExample />} />
         <Route path="use-reducer" element={<UseReducerExample />} />
+        <Route path="use-context" element={<UseContextExample />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,5 +1,6 @@
 export * from './Home';
 export * from './UseCallbackExample';
+export * from './UseContextExample';
 export * from './UseEffectExample';
 export * from './UseLayoutEffectExample';
 export * from './UseMemoExample';
