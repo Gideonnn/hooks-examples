@@ -7,6 +7,7 @@ import {
   UseEffectExample,
   UseLayoutEffectExample,
   UseMemoExample,
+  UseReducerExample,
   UseRefExample,
   UseStateExample,
 } from './pages';
@@ -22,6 +23,7 @@ function App() {
         <Route path="use-memo" element={<UseMemoExample />} />
         <Route path="use-layout-effect" element={<UseLayoutEffectExample />} />
         <Route path="use-callback" element={<UseCallbackExample />} />
+        <Route path="use-reducer" element={<UseReducerExample />} />
       </Routes>
     </BrowserRouter>
   );

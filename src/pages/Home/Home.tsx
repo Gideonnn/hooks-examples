@@ -22,5 +22,8 @@ export const Home = () => (
     <div>
       <Link to="/use-callback">useCallback</Link>
     </div>
+    <div>
+      <Link to="/use-reducer">useReducer</Link>
+    </div>
   </div>
 );
